@@ -1,0 +1,37 @@
+.cell-container {
+    margin: 0;
+    padding: 0;
+    border-style: solid;
+    border-color: gray;
+    border-width: 1px;
+    height: 20px;
+    width: 20px;
+    box-sizing: border-box;
+}
+
+.small-cell-container {
+    margin: 0;
+    padding: 0;
+    border-color: gray;
+    border-width: 0.0001px;
+    border-style: solid;
+    height: 8px;
+    width: 8px;
+    box-sizing: border-box;
+}
+
+
+.cell-container:hover {
+    border-color: #353535;
+    border-width: 2px;        /* optional: schimbă border */
+    background-color: #eee;    /* poate un hover vizibil dacă color nu e setat */
+}
+
+/* stări active / inactive dacă vrei clase */
+.cell-active {
+    background-color: blue;    /* exemplu pentru celula activă */
+}
+
+.cell-inactive {
+    background-color: white;   /* exemplu pentru celula inactivă */
+}

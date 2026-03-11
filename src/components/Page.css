@@ -1,0 +1,98 @@
+/* Page.css */
+
+/* Container principal */
+.page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    min-height: 100vh;
+}
+
+/* Container culori + butoane */
+.colors-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+/* Casete de culoare */
+.color-box {
+    width: 30px;
+    height: 30px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 2px solid #ccc;
+    transition: transform 0.2s, border 0.2s;
+}
+
+.color-box:hover {
+    transform: scale(1.2);
+    border: 2px solid #000;
+}
+
+/* Butoane principale */
+.colors-container button {
+    margin-left: 10px;
+    padding: 5px 12px;
+    border: none;
+    border-radius: 4px;
+    background-color: #556270;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.colors-container button:hover {
+    background-color: #33414e;
+}
+
+/* Grid mare */
+.page-container > div > .grid-container {
+    margin-bottom: 20px;
+}
+
+/* Lista cu mini-grid-uri */
+.grid-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+
+/* Mini-grid container */
+.mini-grid-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    transition: transform 0.2s;
+}
+
+.mini-grid-container:hover {
+    transform: translateY(-3px);
+}
+
+/* Butoane mini-grid */
+.mini-grid-container button {
+    margin-top: 5px;
+    padding: 4px 8px;
+    font-size: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #6A5ACD;
+    color: white;
+    transition: background-color 0.2s;
+}
+
+.mini-grid-container button:hover {
+    background-color: #483d8b;
+}
